@@ -40,7 +40,7 @@
     <header class="w-full h-1/3 bg-hero-pattern">
         <h1 class="text-center text-white text-3xl py-6">IP Address Tracker</h1>
         <form onsubmit="(e).preventDefault()" class="flex justify-center w-3/4 mx-auto">
-            <input class="text-lg  md:w-2/3 grow md:grow-0 rounded-l-2xl pl-5" type="text" name="ipadress" id="ipadress" placeholder=" Search for any IP address or domain">
+            <input class="text-lg  md:w-2/3 grow md:grow-0 rounded-l-2xl pl-5" type="text" name="ipadressInput" id="ipadressInput" placeholder=" Search for any IP address or domain">
             <button class="p-3 w-14 h-14 flex justify-center items-center bg-v-dark-grey hover:bg-dark-grey rounded-r-2xl"><img src="./images/icon-arrow.svg" alt=""></button>
         </form>
     </header>
@@ -51,37 +51,33 @@
             <div class="grid sm:grid-cols-4 pt-8 rounded-lg relative -top-12 bg-white  w-fit m-auto">
               <div class="px-3 border-r-2 text-center md:text-left mb-6 ">
                 <span class="opacity-50 mb-20 capitalize">IP Address</span>
-                <h3 class="font-semibold text-2xl">192.168.174.101</h3>  
+                <h3 id="ipadress" class="font-semibold text-2xl">192.168.174.101</h3>  
               </div>
               <div class="px-3 border-r-2 text-center md:text-left mb-6">
                 <span class="opacity-50 mb-20 capitalize">Location</span>
-                <h3 class="font-semibold text-2xl">Brooklyn, NY 10001</h3>  
+                <h3 id="location" class="font-semibold text-2xl">Brooklyn, NY 10001</h3>  
               </div>
               <div class="px-3 border-r-2 text-center md:text-left mb-6">
                 <span class="opacity-50 mb-20 capitalize">Timezone</span>
-                <h3 class="font-semibold text-2xl">UTC-<span id="timezone">05:00</span></h3>  
+                <h3 class="font-semibold text-2xl">UTC<span id="timezone">05:00</span></h3>  
               </div>
               <div class="px-3 border-r-2 text-center md:text-left mb-6">
                 <span class="opacity-50 mb-20 capitalize">ISP</span>
-                <h3 class="font-semibold text-2xl">SpaceX Starlink</h3>  
+                <h3 id="ISP" class="font-semibold text-2xl">SpaceX Starlink</h3>  
               </div>
             </div>
         </section>
 
     </main>
-  
 
-  <!-- 
-  
-  Location
- Timezone 
-    UTC 
-  ISP -->
-
-    <div class="attribution">
+    <!-- <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
+
+    <!---jquery cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 
 </html>
