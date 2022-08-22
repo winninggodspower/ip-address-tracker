@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('/images/pattern-bg.png')",
+        'hero-pattern': "url('../images/pattern-bg.png')",
       },
       colors: {
         'v-dark-grey': 'hsl(0, 0%, 17%)',
