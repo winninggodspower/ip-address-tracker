@@ -1,0 +1,45 @@
+:root {
+    --very-dark-gray: hsl(0, 0%, 17%);
+    --dark-gray: hsl(0, 0%, 59%);
+    --white: #FFF;
+    --blue: #45409C;
+}
+
+.footer {
+    color: var(--white);
+    padding: 2rem .5rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer p>a {
+    font-weight: 500;
+    color: var(--white);
+}
+
+.social {
+    margin-top: 1rem;
+}
+
+.social a {
+    margin: .5em;
+    font-size: 1.75em;
+    color: var(--white);
+}
+
+i {
+    transition: all .2s ease-out;
+}
+
+.social a:hover i {
+    transform: scale(1.2);
+}
+
+/* Z INDEX FOR THE MAP */
+/* .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+    Z-INDEX: -5;
+} */
