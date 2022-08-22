@@ -468,48 +468,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
 
-.top-0 {
-  top: 0px;
-}
-
-.-top-0 {
-  top: -0px;
-}
-
-.left-1\/2 {
-  left: 50%;
-}
-
-.top-3\/4 {
-  top: 75%;
-}
-
-.top-12 {
-  top: 3rem;
+.z-50 {
+  z-index: 50;
 }
 
 .z-\[1000\] {
   z-index: 1000;
-}
-
-.-z-50 {
-  z-index: -50;
-}
-
-.-z-0 {
-  z-index: 0;
-}
-
-.-z-10 {
-  z-index: -10;
 }
 
 .m-auto {
@@ -519,6 +487,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mb-6 {
@@ -533,16 +505,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
-.grid {
-  display: grid;
-}
-
 .h-screen {
   height: 100vh;
 }
 
-.h-1\/3 {
-  height: 33.333333%;
+.h-56 {
+  height: 14rem;
 }
 
 .h-14 {
@@ -551,10 +519,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-\[65vh\] {
   height: 65vh;
-}
-
-.h-2\/5 {
-  height: 40%;
 }
 
 .w-screen {
@@ -579,29 +543,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: fit-content;
 }
 
-.max-w-\[09\%\] {
-  max-width: 09%;
-}
-
-.max-w-\[80\%\] {
-  max-width: 80%;
-}
-
 .max-w-\[90\%\] {
   max-width: 90%;
 }
 
 .grow {
   flex-grow: 1;
-}
-
-.translate-x-1\/2 {
-  --tw-translate-x: 50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -650,7 +597,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-hero-pattern {
-  background-image: url('/images/pattern-bg.png');
+  background-image: url('../images/pattern-bg.png');
 }
 
 .p-3 {
@@ -660,16 +607,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .px-5 {
@@ -729,14 +666,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 640px) {
   .sm\:mb-8 {
     margin-bottom: 2rem;
-  }
-
-  .sm\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .sm\:flex-row {
-    flex-direction: row;
   }
 }
 
