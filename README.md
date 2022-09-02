@@ -9,9 +9,9 @@ This is my solution to the [IP address tracker challenge on Frontend Mentor](htt
 - [My process](#my-process)
   - [Built with](#built-with)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+iP address tracker tracks and displays your ip address, your network provider, your location and displays your location on google maps.
+you can also type in an ip address and get the rest info of the ipaddress.
 
 ### The challenge
 
@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](design\desktop-design.jpg)
+![design\desktop-design.jpg](./images/ip-address-tracker-desktop-screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://winninggospower.github.com/ip_address_tracker)
+- Solution URL: [https://www.frontendmentor.io/solutions/ip-address-tracker-with-taillwindcss-zP6GEcG-EX](https://www.frontendmentor.io/solutions/ip-address-tracker-with-taillwindcss-zP6GEcG-EX)
+- Live Site URL: [https://winninggospower.github.com/ip_address_tracker](https://winninggospower.github.com/ip_address_tracker)
 
 ## My process
 1. On page load, I use browser geolocation api to get user location and leaflet to plot the map
@@ -43,7 +43,6 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - [Bootstrap](https://getbootstrap.com/) - For styles
 - 3 apis 
 
@@ -51,4 +50,4 @@ Users should be able to:
 ## Author
 
 - Website - [Winning Godspower](https://winningtech.tk)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/winninggpower)
+- Frontend Mentor - [@winninggodpwer](https://www.frontendmentor.io/profile/winninggpower)
